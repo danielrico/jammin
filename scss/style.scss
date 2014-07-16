@@ -1,0 +1,16 @@
+/*
+Theme Name: Jammin
+Author: Daniel Rico
+Author URI: http://www.daniel-rico.com
+Description: A custom WordPress theme
+*/
+
+/* Dependencies */
+@import 'reset';
+@import 'dependencies';
+
+/* Main styles */
+ @import 'main';
+
+/* Media queries */
+@import 'media_queries';

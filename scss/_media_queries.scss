@@ -1,0 +1,94 @@
+/*
+  *
+  * Tablettes
+  */
+
+@media screen and (max-width: 1023px) {
+
+
+}
+
+/*
+  *
+  * Mobiles
+  */
+
+@media screen and (max-width: 767px) {
+
+  body{
+    font-size: .9em;
+  }
+
+}
+
+
+
+@media screen and (max-width: 720px) {
+
+  .shortcode-author-avatars div.author-list{
+    background: none;
+    margin: 0;
+    width: auto;
+    .user{
+      margin: 0 3% 50px 3%;
+      width: 40%;
+      &:nth-child(2), &:nth-child(4), &:nth-child(5){
+        margin: 0 3% 50px 3%;
+      }
+    }
+  }
+  .home{
+    #front_logo{
+      img{
+        width: 150px;
+      }
+    }
+    .content{
+      font-size: 1.5em;
+      line-height: 1.2em;
+    }
+    #mc_embed_signup{
+      margin-right: 2%;
+      padding-top: 15px;
+      h2{
+        font-size: 1.1em;
+      }
+      input.email{
+        height: 48px;
+        padding: 0 135px 0 10px;
+      }
+      input.button{
+        height: 36px;
+        line-height: 36px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .home{
+    #front_logo {
+      margin-bottom: 20px;
+    }
+  }
+  #page, #archives{
+    padding-top: 40px;
+    .post{
+      margin: 0 4% 30px 0;
+      width: 46%;
+    }
+  }
+  .wrapper {
+    margin: 40px auto;
+  }
+  article, aside {
+    float: none;
+    width: auto;
+  }
+  aside{
+    margin-top: 40px;
+  }
+
+}
